@@ -52,10 +52,10 @@ public class Detect {
 
         // TO BE REPLACED: use your parameters instead
         obj.put("monitorUid", 100112);
-        obj.put("channelName", new String("room2233"));
+        obj.put("channelName", "room2233");
         obj.put("detectType", 0);
         obj.put("scFrequency", 10);
-        obj.put("callback", new String("demo callback data"));
+        obj.put("callback", "demo callback data");
 
         return obj.toString();
     }
